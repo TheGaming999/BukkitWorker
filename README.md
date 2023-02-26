@@ -1,5 +1,6 @@
 # BukkitWorker
-Make it so it's possible to get the same behavior of asynchronous tasks with methods that can only be run synchronously.
+Make it so it's possible to get the same behavior of asynchronous tasks with methods that can only be run synchronously.  
+All thanks to this and its developer (7smile7): https://www.spigotmc.org/threads/409003
 ## Correct Usage
 We know that commands cannot be run asynchronously, and running about 10000 commands within a loop could possibly lag the server. Here is the fix using BukkitWorker:
 ### Run
